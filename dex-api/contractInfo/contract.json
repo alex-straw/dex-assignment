@@ -1,6 +1,5 @@
 {
-    "contractName": "Dex",
-    "chain": "Rinkeby",
+    "chain": "rinkeby",
     "owner": "0xF1C37BC188643DF4Bf15Fd437096Eb654d30abc1",
     "address": "0x49d6A493767dE142A8181cb5E2C58D597477de21"
 }
