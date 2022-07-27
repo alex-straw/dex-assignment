@@ -27,7 +27,7 @@ README
 
 ## API
 
-API should expose DEX relevant data poitns by querying DEX Smart Contract
+API should expose DEX relevant data points by querying DEX Smart Contract
 
 + Details of TTD token
 + Exchange rates for ETH-TTD
