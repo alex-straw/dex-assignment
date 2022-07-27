@@ -1,0 +1,14 @@
+{
+  "name": "dex-api",
+  "version": "1.0.0",
+  "description": "api portion of the take home assessment",
+  "main": "dexApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alex-straw",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.6.9"
+  }
+}
