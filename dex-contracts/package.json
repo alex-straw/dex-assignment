@@ -1,0 +1,14 @@
+{
+  "name": "dex-contracts",
+  "version": "1.0.0",
+  "description": "smart contracts for dex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alex-straw",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.10.1"
+  }
+}
