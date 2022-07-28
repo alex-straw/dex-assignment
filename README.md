@@ -18,7 +18,7 @@ The exchange rates are fixed to be:
 + 1 TTD --> 5000 Wei (sellToken)
 
 ## Exposed Helper Functions:
-  + contractEthBalance --> returns the contract's balance of ETh
+  + contractEthBalance --> returns the contract's balance of ETH
   + contractTokenBalance --> returns the contract's TTD balance
   + maxTokenBuyInEth --> returns the largest purchase in wei (limited by the contract's balance of TTD).
   + maxTokenSellInToken --> returns the largest sell of TTD tokens (limited by the contract's ETH balance).
