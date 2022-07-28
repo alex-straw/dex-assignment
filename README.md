@@ -17,6 +17,12 @@ The exchange rates are fixed to be:
 + 10000 Wei --> 1 TTD (buyToken)
 + 1 TTD --> 5000 Wei (sellToken)
 
+## Exposed Helper Functions:
+  + contractEthBalance --> returns the contract's balance of ETh
+  + contractTokenBalance --> returns the contract's TTD balance
+  + maxTokenBuyInEth --> returns the largest purchase in wei (limited by the contract's balance of TTD).
+  + maxTokenSellInToken --> returns the largest sell of TTD tokens (limited by the contract's ETH balance).
+
 ### Deployment
 
 How this contract was deployed to Rinkeby:
@@ -108,10 +114,4 @@ For more details: https://docs.ethers.io/api-keys/
   + Select the 'Dex.sol' contract.
   + Copy `0x49d6A493767dE142A8181cb5E2C58D597477de21` into the 'At Address' input box - and press the button.
   + This will enable you to interact with all the functions of the already deployed contract
-
-## Exposed functions:
-  + contractEthBalance --> returns the contract's balance of ETh
-  + contractTokenBalance --> returns the contract's TTD balance
-  + maxTokenBuyInEth --> returns the largest purchase in wei (limited by the contract's balance of TTD).
-  + maxTokenSellInToken --> returns the largest sell of TTD tokens (limited by the contract's ETH balance).
 
