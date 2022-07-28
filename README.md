@@ -100,7 +100,7 @@ For more details: https://docs.ethers.io/api-keys/
 
 To force stop the API:
 ```
-CTRL+X
+CTRL+C
 ```
 
 # Interacting with the Contract
