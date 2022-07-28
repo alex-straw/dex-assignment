@@ -8,19 +8,19 @@ The Dex.sol contract inherits methods from the ERC20 contract with parameters:
    
 ### How it works
 
-+ The TTD token can be purchased through the contract by sending wei to the buyToken function. When buyToken is called, half of the sent wei is transferred to the owner of the contract (which is automatically set to be the deployer of the contract).
++ The TTD token can be purchased through the contract by sending Wei to the buyToken function. When buyToken is called, half of the sent Wei is transferred to the owner of the contract (which is automatically set to be the deployer of the contract).
 
 + The TTD token can be sold by calling the sellToken and specifying the number of TTD tokens to sell. 
 
 The exchange rates are fixed to be:
 
-+ 10000 wei --> 1 TTD (buyToken)
-+ 1 TTD --> 5000 wei (sellToken)
++ 10000 Wei --> 1 TTD (buyToken)
++ 1 TTD --> 5000 Wei (sellToken)
 
 ### Deployment
 
 How this contract was deployed to Rinkeby:
-1. Dex.sol code was copied into the browser Solidity IDE Remix.
+1. Dex.sol code was copied into the browser IDE Remix.
 2. This code was compiled.
 3. The environment was set to 'Injected Provider - Metamask'.
 4. The Metamask account was set to the 'Rinkeby Test Network'.
@@ -81,7 +81,7 @@ For demonstration purposes, the reponse for this call is console.logged (but it 
 
 ## Throttle Notice
 
-This demo project uses the default provider which is throttled. It is recommended that this be updated later with dedicated API keys for Infura or Alchemy. Expect to get this notice in the terminal - which will not impact the return statement of the API, but may prevent automatic termination of the program.
+This demo project uses the default provider which is throttled. It is recommended that this be updated later with dedicated API keys for Infura or Alchemy. Expect to get this error message in the terminal - which will not impact the return statement of the API, but may prevent automatic termination of the program.
 
 ```
 ========= NOTICE =========
@@ -98,16 +98,10 @@ For more details: https://docs.ethers.io/api-keys/
 ==========================
 ```
 
-To force stop the API:
-```
-CTRL+C
-```
-
 # Interacting with the Contract
 
-### Method 1: Recreate the deployment process outlined above.
-
-### Method 2: Interact with the already deployed contract:
+Method 1: Recreate the deployment process outlined above.
+Method 2: Interact with the already deployed contract:
   + Copy the Dex.sol code into the Remix IDE.
   + Compile this code.
   + Select the 'Deploy & Run Transactions' tab.
@@ -120,3 +114,4 @@ CTRL+C
   + contractTokenBalance --> returns the contract's TTD balance
   + maxTokenBuyInEth --> returns the largest purchase in wei (limited by the contract's balance of TTD).
   + maxTokenSellInToken --> returns the largest sell of TTD tokens (limited by the contract's ETH balance).
+
