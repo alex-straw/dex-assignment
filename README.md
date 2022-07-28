@@ -32,11 +32,7 @@ How this contract was deployed to Rinkeby:
 4. The Metamask account was set to the 'Rinkeby Test Network'.
 5. The contract was deployed by pressing 'Deploy'.
 
-+ Deployed to Rinkeby with address:
-
-`
-"0x49d6A493767dE142A8181cb5E2C58D597477de21"
-`
++ Deployed to Rinkeby with address: `"0x49d6A493767dE142A8181cb5E2C58D597477de21"`
 
 + The contract address was found by manually inspecting the deployed contract on Remix, and saved to the api/contractInfo/contract.json file.
 + The ABI for the contract was copied manually from the Remix compiler page and saved to the api/contractInfo/contractABI.json file.
