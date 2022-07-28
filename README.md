@@ -44,6 +44,12 @@ How this contract was deployed to Rinkeby:
 
 # Using the API
 
+You will need npm:
+
+```
+npm install -g npm
+```
+
 For Linux users:
 ```
 git clone https://github.com/alex-straw/dex-assignment.git
