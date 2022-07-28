@@ -8,9 +8,9 @@ The Dex.sol contract inherits methods from the ERC20 contract with parameters:
    
 ### How it works
 
-+ The TTD token can be purchased through the contract by sending Wei to the buyToken function. When buyToken is called, half of the sent Wei is transferred to the owner of the contract (which is automatically set to be the deployer of the contract).
++ The TTD token can be purchased through the contract by sending Wei to the `buyToken` function. When buyToken is called, half of the sent Wei is transferred to the owner of the contract (which is automatically set to be the deployer of the contract).
 
-+ The TTD token can be sold by calling the sellToken and specifying the number of TTD tokens to sell. 
++ The TTD token can be sold by calling the `sellToken` function and specifying the number of TTD tokens to sell. 
 
 The exchange rates are fixed to be:
 
