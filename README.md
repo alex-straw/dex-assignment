@@ -56,6 +56,23 @@ npm install
 npm run get-contract-details
 ```
 
+This demo project uses the default provider which is throttled. It is recommended that this be updated later with dedicated API keys for Infura or Alchemy. Expect to get this error message in the terminal - which will not impact the return statement of the API, but may prevent automatic termination of the program.
+
+```
+========= NOTICE =========
+Request-Rate Exceeded  (this message will not be repeated)
+
+The default API keys for each service are provided as a highly-throttled,
+community resource for low-traffic projects and early prototyping.
+
+While your application will continue to function, we highly recommended
+signing up for your own API keys to improve performance, increase your
+request rate/limit and enable other perks, such as metrics and advanced APIs.
+
+For more details: https://docs.ethers.io/api-keys/
+==========================
+```
+
 For demonstration purposes, the reponse for this call is console.logged (but it also returns these values). All of the required contract details are returned in a single JSON format:
 
 ### Example response:
