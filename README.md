@@ -98,17 +98,19 @@ For more details: https://docs.ethers.io/api-keys/
 ==========================
 ```
 
-# ADD
+# Interacting with the Contract
 
-Queryable Variables:
-+ public uint numberBuys;
-+ public uint numberSells
+Method 1: Recreate the deployment process outlined above.
+Method 2: Interact with the already deployed contract:
+  + Copy the Dex.sol code into the Remix IDE.
+  + Compile this code.
+  + Select the 'Deploy & Run Transactions' tab.
+  + Select the 'Dex.sol' contract.
+  + Copy `0x49d6A493767dE142A8181cb5E2C58D597477de21` into the 'At Address' input box - and press the button.
+  + This will enable you to interact with all the functions of the already deployed contract
 
-Exposed functions:
-+ Buy/sales rates
-+ Max exchange size for buy and sell (balance of TTD and ETH)
-+ Number of executed buys/sells
-
-README
-+ Overview of smart contract
-+ Describe the deploy process
+## Exposed functions:
+  + contractEthBalance --> returns the contract's balance of ETh
+  + contractTokenBalance --> returns the contract's TTD balance
+  + maxTokenBuyInEth --> returns the largest purchase in wei (limited by the contract's balance of TTD).
+  + maxTokenSellInToken --> returns the largest sell of TTD tokens (limited by the contract's ETH balance).
