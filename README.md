@@ -83,6 +83,11 @@ For demonstration purposes, the reponse for this call is console.logged (but it 
 
 This demo project uses the default provider which is throttled. It is recommended that this be updated later with dedicated API keys for Infura or Alchemy. Expect to get this error message in the terminal - which will not impact the return statement of the API, but may prevent automatic termination of the program.
 
+To force stop this:
+```
+CTRL+X
+``
+
 ```
 ========= NOTICE =========
 Request-Rate Exceeded  (this message will not be repeated)
