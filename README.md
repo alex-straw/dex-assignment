@@ -42,24 +42,25 @@ How this contract was deployed to Rinkeby:
 # API
 
 For Linux users:
-`
+```
 git clone https://github.com/alex-straw/dex-assignment.git
 cd dex-assignment
 npm install
-`
+```
 
 ## Request contract details using the API:
 
 (in the root directory)
 
-`
+```
 npm run get-contract-details
-`
+```
 
 For demonstration purposes, the reponse for this call is console.logged (but it also returns these values). All of the required contract details are returned in a single JSON format:
 
 # Example response:
 
+```
 {
   "Contract Balance": {
     "TTD": 500000000000000,
@@ -74,7 +75,7 @@ For demonstration purposes, the reponse for this call is console.logged (but it 
     "Sell Count": 0
   }
 }
-
+```
 # ADD
 
 Queryable Variables:
