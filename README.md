@@ -81,12 +81,7 @@ For demonstration purposes, the reponse for this call is console.logged (but it 
 
 ## Throttle Notice
 
-This demo project uses the default provider which is throttled. It is recommended that this be updated later with dedicated API keys for Infura or Alchemy. Expect to get this error message in the terminal - which will not impact the return statement of the API, but may prevent automatic termination of the program.
-
-To force stop this:
-```
-CTRL+X
-```
+This demo project uses the default provider which is throttled. It is recommended that this be updated later with dedicated API keys for Infura or Alchemy. Expect to get this notice in the terminal - which will not impact the return statement of the API, but may prevent automatic termination of the program.
 
 ```
 ========= NOTICE =========
@@ -101,6 +96,11 @@ request rate/limit and enable other perks, such as metrics and advanced APIs.
 
 For more details: https://docs.ethers.io/api-keys/
 ==========================
+```
+
+To force stop the API:
+```
+CTRL+X
 ```
 
 # Interacting with the Contract
