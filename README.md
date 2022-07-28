@@ -105,8 +105,9 @@ CTRL+C
 
 # Interacting with the Contract
 
-Method 1: Recreate the deployment process outlined above.
-Method 2: Interact with the already deployed contract:
+### Method 1: Recreate the deployment process outlined above.
+
+### Method 2: Interact with the already deployed contract:
   + Copy the Dex.sol code into the Remix IDE.
   + Compile this code.
   + Select the 'Deploy & Run Transactions' tab.
