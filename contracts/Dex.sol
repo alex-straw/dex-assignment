@@ -13,12 +13,6 @@ contract Dex is ERC20 {
     uint public sellCount;
 
     /*
-        The Dex contract inherits all the functionality of the ERC20 token.
-        Each parameter must first be set in the constructor
-            + Name
-            + Symbol
-            + Decimals --> which is done by overriding the default decimals() function
-
         All of these values could be input as constructor arguments. However, the client 
         has specified these parameters, and to make deployment easier for them they were 
         built into the .sol code itself.
