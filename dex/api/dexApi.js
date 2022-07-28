@@ -1,8 +1,8 @@
 const ethers = require('ethers');
 const fs = require("fs");
 
-const contractInfoPath = 'contractInfo/contract.json'
-const dexAbiPath = 'contractInfo/contractABI.json'
+const contractInfoPath = 'api/contractInfo/contract.json'
+const dexAbiPath = 'api/contractInfo/contractABI.json'
 
 /*
 
